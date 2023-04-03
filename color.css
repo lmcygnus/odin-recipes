@@ -1,0 +1,27 @@
+h1, img {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(124, 0, 0);
+    text-shadow: 12cqw;
+    text-decoration:wavy;
+}
+div {
+    text-align: center;
+}
+button {
+    background-color: antiquewhite;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    width: auto;
+    height: auto
+}
+button:hover {
+    background-color: rgba(226, 145, 70, 0.466);
+    color: brown;
+    }
