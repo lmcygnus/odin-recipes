@@ -1,27 +1,40 @@
-h1, img {
-    background-color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 h1 {
     text-align: center;
-    color: rgb(124, 0, 0);
-    text-shadow: 12cqw;
-    text-decoration:wavy;
-}
-div {
-    text-align: center;
-}
-button {
-    background-color: antiquewhite;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    background-color: #EA5455;
+    padding: 40px;
+    margin-top: 0%;
     border: none;
-    border-radius: 8px;
-    width: auto;
-    height: auto
+    font-family: "Wotfard","Wotfard-fallback",sans-serif;
+}
+#botones {
+    display: flex;
+    flex: 1;
+}
+img {
+    margin-left: 250px;
+
+}
+span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+button { ;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    height: fit-content;
 }
 button:hover {
-    background-color: rgba(226, 145, 70, 0.466);
-    color: brown;
+    background-color: #FFD460;
     }
+.piso {
+    background-color: #2d4059;
+    height: 138px;
+    margin-top: 20px;
+}

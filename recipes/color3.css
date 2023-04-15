@@ -1,6 +1,8 @@
 body {
     background-color: rgba(248, 202, 74, 0.473);
     color: rgb(114, 39, 20);
+    font-family: "Wotfard","Wotfard-fallback",sans-serif;
+}
 }
 div {
     text-align: center;
@@ -15,4 +17,5 @@ button {
     background-color: rgba(194, 0, 0, 0.548);
     border: none;
     border-radius: 10px;
+    
 }
