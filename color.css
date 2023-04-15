@@ -12,10 +12,7 @@ h1 {
 #botones {
     display: flex;
     flex: 1;
-}
-img {
-    margin-left: 250px;
-
+    justify-content: center;
 }
 span {
     display: flex;
