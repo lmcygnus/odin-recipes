@@ -6,12 +6,16 @@ h1 {
     background-color: #EA5455;
     padding: 40px;
     margin: 0%;
-    border: none;
+    height: 20px;
     font-family: "Wotfard","Wotfard-fallback",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #botones {
     display: flex;
     justify-content: center;
+    margin: 80px;
 }
 img {
     min-width: 0px
@@ -36,6 +40,6 @@ button:hover {
     }
 .piso {
     background-color: #2d4059;
-    height: 138px;
-    margin-top: 20px;
+    height: 100px;
+    margin: 0%;
 }
