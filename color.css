@@ -5,14 +5,16 @@ h1 {
     color: white;
     background-color: #EA5455;
     padding: 40px;
-    margin-top: 0%;
+    margin: 0%;
     border: none;
     font-family: "Wotfard","Wotfard-fallback",sans-serif;
 }
 #botones {
     display: flex;
-    flex: 1;
     justify-content: center;
+}
+img {
+    min-width: 0px
 }
 span {
     display: flex;
@@ -26,6 +28,8 @@ button { ;
     border: none;
     border-radius: 20px;
     height: fit-content;
+    min-width: 0px
+    min-height: 0px;
 }
 button:hover {
     background-color: #FFD460;
