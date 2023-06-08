@@ -1,15 +1,22 @@
 body {
-    background-color: rgba(248, 202, 74, 0.473);
-    color: rgb(114, 39, 20);
-}
-div {
-    text-align: center;
+    color: #2d4059;
+    font-family: "Wotfard","Wotfard-fallback",sans-serif;
 }
 h1 {
-    background-color: rgba(194, 0, 0, 0.548);
+    background-color: #EA5455;
+    color: #FFD460;
+    font-size: 30px;
+    padding: 40px;
+    margin: 0%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-h1, h3, h4 {
-    text-decoration: underline;
+.descripcion {
+    justify-content: center;
+    width: 500px;
+    margin: 15px;
 }
 button {
     background-color: rgba(194, 0, 0, 0.548);
