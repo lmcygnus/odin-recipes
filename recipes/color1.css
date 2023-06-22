@@ -1,25 +1,40 @@
 body {
-    color: #2d4059;
-    font-family: "Wotfard","Wotfard-fallback",sans-serif;
+    margin: 0;
+    font-family: 'Crimson Text', serif;
+    flex-direction: column;
+}
+body, h1, .descripcion, img, .des, .preparacion {
+    display: flex;
 }
 h1 {
-    background-color: #EA5455;
-    color: #FFD460;
-    font-size: 30px;
-    padding: 40px;
+    background-color: #2f2f2f;
+    color: #ffc831;
+    font-size: 40px;
+    padding: 30px;
     margin: 0%;
-    height: 20px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 100px;
 }
 .descripcion {
     justify-content: center;
-    width: 500px;
-    margin: 15px;
+    gap: 50px;
+    padding-top: 40px;
 }
-button {
-    background-color: rgba(194, 0, 0, 0.548);
-    border: none;
-    border-radius: 10px;
+img {
+    border-radius: 8px;
+    min-width: 0%;
+}
+.des {
+    align-items: center;
+    width: 700px;
+    font-size: 30px;
+}
+.ing, .prep, .descripcion {
+    font-size: 30px;
+}
+.ing, .prep {
+    padding: 40px;
+}
+li {
+    margin: 15px;
 }

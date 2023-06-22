@@ -1,18 +1,54 @@
 body {
-    background-color: rgba(248, 202, 74, 0.473);
-    color: rgb(114, 39, 20);
+    margin: 0;
+    font-family: 'Crimson Text', serif;
+    flex-direction: column;
 }
-div {
-    text-align: center;
+body, h1, .descripcion, img, .des, .preparacion {
+    display: flex;
 }
 h1 {
-    background-color: rgba(194, 0, 0, 0.548);
+    background-color: #2f2f2f;
+    color: #ffc831;
+    font-size: 40px;
+    padding: 30px;
+    margin: 0%;
+    align-items: center;
+    gap: 100px;
+    flex: 1;
 }
-h1, h3, h4 {
-    text-decoration: underline;
+h1 {
+    background-color: #2f2f2f;
+    color: #ffc831;
+    font-size: 40px;
+    padding: 30px;
+    margin: 0%;
+    align-items: center;
+    gap: 100px;
 }
-button {
-    background-color: rgba(194, 0, 0, 0.548);
-    border: none;
-    border-radius: 10px;
+.descripcion {
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+}
+img {
+    border-radius: 8px;
+    min-width: 0%;
+}
+.des {
+    align-items: center;
+    width: 700px;
+    font-size: 30px;
+}
+.ing, .prep, .descripcion {
+    font-size: 30px;
+}
+.preparacion {
+    justify-content: center;
+    margin-top: 30px;
+}
+.prep{
+    width: 900px;
+}
+li {
+    margin: 15px;
 }
