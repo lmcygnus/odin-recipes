@@ -18,6 +18,7 @@ body {
 .portada {
     display: flex;
     justify-content: center;
+    flex: 1;
 }
 img {
     width: 100%;

@@ -29,11 +29,17 @@ img {
     width: 700px;
     font-size: 30px;
 }
+.preparacion {
+    justify-content: center;
+}
 .ing, .prep, .descripcion {
     font-size: 30px;
 }
 .ing, .prep {
     padding: 40px;
+}
+.prep {
+    width: 1000px;
 }
 li {
     margin: 15px;
