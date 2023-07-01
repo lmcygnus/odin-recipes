@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    flex-wrap: wrap;
 }
 .header {
     color: white;
@@ -18,7 +19,7 @@ body {
 .portada {
     display: flex;
     justify-content: center;
-    flex: 1;
+    flex-wrap: wrap;
 }
 img {
     width: 100%;
@@ -26,6 +27,7 @@ img {
 }
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color:#181818;
@@ -88,7 +90,7 @@ img {
     font-weight: bold;
     letter-spacing: .1em;
    }
-   
+
    .card:hover::after {
     opacity: 0;
    }
